@@ -47,7 +47,7 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Mzone's', url='https://t.me/MzoneChat')
+        InlineKeyboardButton('Mzones', url='https://t.me/MzoneChat')
         
     ]]
     
