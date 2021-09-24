@@ -28,7 +28,7 @@ async def start(bot, update):
             await update.reply_cached_media(
                 file_id,
                 quote=True,
-                caption = "<code>" + file_name + "</code>" "@MzoneChat",
+                caption = "<code>" + file_name + "</code>" "\n\n ♾ @MzoneChat ♾",
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
